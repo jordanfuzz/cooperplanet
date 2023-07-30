@@ -1,0 +1,10 @@
+<HTML>
+<%
+  for idx=1 to request.form.count
+	response.write(request.form(idx).key + " = " + request.form(idx))
+  next
+
+%>
+
+
+</HTML>

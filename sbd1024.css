@@ -1,0 +1,48 @@
+BODY
+{
+    FONT-SIZE: 14pt;
+    COLOR: #003366
+}
+A:hover
+{
+    FONT-SIZE: 12pt;
+    COLOR: #003366;
+    FONT-FAMILY: 'Comic Sans MS';
+    TEXT-DECORATION: none
+}
+A:active
+{
+    COLOR: white;
+    FONT-FAMILY: 'Comic Sans MS';
+    TEXT-DECORATION: none
+}
+A:link
+{
+    FONT-SIZE: 11pt;
+    COLOR: white;
+    FONT-FAMILY: 'Comic Sans MS';
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    FONT-SIZE: 11pt;
+    COLOR: white;
+    FONT-FAMILY: 'Comic Sans MS';
+    TEXT-DECORATION: none
+}
+#hash
+{
+    COLOR: #003366
+}
+TD
+{
+    FONT-SIZE: 11pt;
+    FONT-FAMILY: 'Comic Sans MS'
+}
+TD A:hover
+{
+    FONT-SIZE: 12pt;
+    COLOR: #003366;
+    FONT-FAMILY: 'Comic Sans MS'
+}
+
