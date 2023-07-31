@@ -1,57 +1,87 @@
 <HTML>
+
 <HEAD>
-<META NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
-<META name="description" content="This is a test of the description.  Xylopohne Llama xyzabcd.">
-<META name="keywords" content="Xylopohne, Llama, xyzabcd, telephone frog,">
-<TITLE>Cooper Planet</TITLE>
+	<META NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+	<META name="description" content="This is a test of the description.  Xylopohne Llama xyzabcd.">
+	<META name="keywords" content="Xylopohne, Llama, xyzabcd, telephone frog,">
+	<TITLE>Cooper Planet</TITLE>
+	<link rel="icon" type="image/x-icon" href="Images/favicon.ico">
 </HEAD>
+
 <BODY bgcolor=black>
-<center>
+	<script>
+		function play() {
+			var audio = document.getElementById("audio");
+			audio.play();
+		}
+	</script>
+	<div onclick="play()" style="cursor: pointer;">
+		<img src="images/music.ico" alt="Play Music" style="width:40px;position:absolute;top:10px;right:10px;">
+		<audio id="audio" src="Halo.mp3" loop></audio>
+	</div>
+	<center>
 
-<TABLE border=0 cellspacing=0 cellpadding=0>
-	<TR>
-		<TD>
-			<TABLE border=0 cellspacing=0 cellpadding=0>
-				<TR><TD>&nbsp;</TD></TR>
-				<TR>
-					<TD>
-						<IMG src=images/mars.jpg>
-					</TD>
-				</TR>
-				<TR><TD height=200px></TD></TR>
-				<TR><TD><IMG src=images/neptune.jpg></TD></TR>
-			</TABLE>
-		</TD>
-		<TD>
-			<TABLE border=0 cellspacing=0 cellpadding=0>
-				<TR>
-					<TD>
-						<IMG name=imgEarth id=imgEarth src=images/earth.jpg onmouseover="imgEarth.src='images/earth2.gif';" onmouseout="imgEarth.src='images/earth3.gif';">
-					</TD>
-				</TR>
-			</TABLE>
-		</TD>
-		<TD>&nbsp;</TD>
-		<TD>
-			<TABLE border=0 cellspacing=0 cellpadding=0>
-				<TR><TD>&nbsp;</TD><TD>&nbsp;</TR>
-				<TR>
-					<TD valign=top>
-						<IMG name=imgJupiter id=imgJupiter src=images/jupiter.jpg>
-					</TD>
-				</TR>
-				<TR>
-					<TD></TD>
-					<TD height=200 valign=middle>
-						<IMG src=images/deimos.jpg>
-					</TD>
-				</TR>
-				<TR><TD colspan=2><IMG src=images/saturn.jpg></TD></TR>
-			</TABLE>
-		</TD>
-	</TR>
-</TABLE>
-
-
+		<TABLE border=0 cellspacing=0 cellpadding=0>
+			<TR>
+				<TD>
+					<TABLE border=0 cellspacing=0 cellpadding=0>
+						<TR>
+							<TD>&nbsp;</TD>
+						</TR>
+						<TR>
+							<TD>
+								<A href="SBD/index.html">
+									<IMG src=images/mars.jpg>
+								</A>
+							</TD>
+						</TR>
+						<TR>
+							<TD height=200px></TD>
+						</TR>
+						<TR>
+							<TD><A href="Sawblade/index.htm"><IMG src=images/neptune.jpg></A></TD>
+						</TR>
+					</TABLE>
+				</TD>
+				<TD>
+					<TABLE border=0 cellspacing=0 cellpadding=0>
+						<TR>
+							<TD>
+								<IMG name=imgEarth id=imgEarth src=images/earth.jpg onmouseover="imgEarth.src='images/earth2.gif';"
+									onmouseout="imgEarth.src='images/earth3.gif';">
+							</TD>
+						</TR>
+					</TABLE>
+				</TD>
+				<TD>&nbsp;</TD>
+				<TD>
+					<TABLE border=0 cellspacing=0 cellpadding=0>
+						<TR>
+							<TD>&nbsp;</TD>
+							<TD>&nbsp;
+						</TR>
+						<TR>
+							<TD valign=top>
+								<A href="JimChristmas.html">
+									<IMG name=imgJupiter id=imgJupiter src=images/jupiter.jpg>
+								</A>
+							</TD>
+						</TR>
+						<TR>
+							<TD></TD>
+							<TD height=200 valign=middle>
+								<A href="Disneysurprise.html">
+									<IMG src=images/deimos.jpg>
+								</A>
+							</TD>
+						</TR>
+						<TR>
+							<TD colspan=2><A href="Jordan/index.html"><IMG src=images/saturn.jpg></A></TD>
+						</TR>
+					</TABLE>
+				</TD>
+			</TR>
+		</TABLE>
 </BODY>
+
 </HTML>
