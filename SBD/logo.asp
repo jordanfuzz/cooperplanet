@@ -13,7 +13,7 @@
 <table cellpadding="0" cellspacing="0">
 	<tr>
 		<td valign="top">
-			<img id="logo" name="logo" src="images/SolutionsByDesignLogo.gif" WIDTH="1003" HEIGHT="86">
+			<img id="logo" name="logo" src="SolutionsByDesignLogo.gif" WIDTH="1003" HEIGHT="86">
 		</td>
 	</tr>
 </table>
@@ -31,7 +31,7 @@
 			</td>
 		</span>
 		<td width=5 align=center id=hash>|</td>
-		<td width=60 align=center><a href="">Contact</a></td>
+		<td width=60 align=center><a href="Nickresume.html">Contact</a></td>
 		<td width=5 align=center id=hash>|</td>
 		<td width=60 align=center><a href="">About</a></td>
 	</tr>

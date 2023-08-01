@@ -9,7 +9,7 @@
 				<tr>
 					<td width=80>&nbsp;</td>
 					<td>
-						<IMG src="images/website.gif" align=left>
+						<IMG src="website.gif" align=left>
 						<b>Web Based Applications</b><br>
 						This is where we would talk all about how we can provide efficient and accessible web applications.
 						I'm not really sure what we would say here to fill some space, but something
@@ -29,7 +29,7 @@
 				<tr>
 					<td width=80>&nbsp;</td>
 					<td>
-						<IMG src="images/vbapp.gif" align=left>
+						<IMG src="vbapp.gif" align=left>
 						<b>Client-Server Based Applications</b><br>
 						This is where we would talk all about how we can provide robust client-server based applications.
 						I'm not really sure what we would say here to fill some space, but something
