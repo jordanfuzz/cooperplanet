@@ -1,0 +1,19 @@
+on:
+  push:
+    branches:
+      - master
+  repository_dispatch:
+    types: [default]
+jobs:
+  deploy:
+    name: deploy
+    runs-on: self-hosted
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: stop and remove existing container
+        run: docker stop cooperplanet && docker rm --force cooperplanet || true
+      - name: build
+        run: docker build --no-cache -t cooperplanet .
+      - name: start nginx
+        run: docker run -dp 8000:80 --rm --name cooperplanet cooperplanet
