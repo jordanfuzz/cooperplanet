@@ -11,9 +11,5 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
-      - name: stop and remove existing container
-        run: docker stop cooperplanet && docker rm --force cooperplanet || true
-      - name: build
-        run: docker build --no-cache -t cooperplanet .
       - name: start nginx
-        run: docker run -dp 8000:80 --rm --name cooperplanet cooperplanet
+        run: docker compose up -d --force-recreate
