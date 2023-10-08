@@ -3,11 +3,6 @@ version: '3.7'
 services:
   nginx:
     build: .
-    volumes:
-      - ./src:/usr/share/nginx/html
-      - /home/ultrabox/host-files/data/certbot/conf:/etc/letsencrypt
-      - /home/ultrabox/host-files/data/certbot/www:/var/www/certbot
     ports:
       - '8000:80'
-    # command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
     command: /bin/sh -c "nginx -g 'daemon off;'"
