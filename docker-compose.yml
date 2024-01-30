@@ -6,3 +6,4 @@ services:
     ports:
       - '8000:80'
     command: /bin/sh -c "nginx -g 'daemon off;'"
+    restart: always
